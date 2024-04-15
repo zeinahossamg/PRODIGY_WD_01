@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0d0d2a;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color:#daabeb;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.timerdisplay {
+    font-size: 3em;
+    width: 190px; 
+    height: 150px;
+    padding: 50px;
+    background-color: #daabeb;
+    background-size: cover; 
+    border-radius: 50%; 
+    box-shadow: 0 0 5px white;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    color: #0d0d2a;
+}
+
+
+
+.buttons {
+    margin-top: 40px;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #daabeb;
+    color: rgb(13, 13, 42);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #5d0b7b;
+    box-shadow: 0 0 10px white;
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+button:focus {
+    outline: none;
+}
+.lapTimes {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #daabeb;
+    border-radius: 5px;
+    box-shadow: 0 0 5px white;
+    color:#0d0d2a;
+}
+
+.lapTimes h2 {
+    margin-top: 0;
+    font-size: 1.2em;
+    color:  #0d0d2a;
+}
+
+#lapList {
+    list-style: none;
+    padding: 0;
+}
+
+#lapList li {
+    margin: 5px 0;
+    font-size: 1.25em;
+    color:  #0d0d2a;
+}
